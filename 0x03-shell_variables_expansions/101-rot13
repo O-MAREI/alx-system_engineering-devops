@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | tr '{A..Z}{a..z}' '{N..Z}{A..M}{n..z}(a..m}' 
+echo "$1" | tr 'A-Z a-z' 'N-ZA-Mn-za-m' 
